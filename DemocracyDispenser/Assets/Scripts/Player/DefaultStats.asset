@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06983a217a70434a95c23f43ef7909f, type: 3}
   m_Name: DefaultStats
   m_EditorClassIdentifier: 
-  PlayerSpeed: 120
+  PlayerSpeed: 90
+  MaxHealth: 20
+  HealthRegeneration: 0
+  EnergyLevel: 0
+  Damage: 0
+  CriticalHit: 0
+  Armor: 0
+  Energy: 0
+  ProcessorPower: 0
+  ElectricCapacity: 0
+  AntiAirDefend: 0

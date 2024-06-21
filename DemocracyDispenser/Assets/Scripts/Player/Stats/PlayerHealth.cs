@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DemocracyDispenser
 {
@@ -8,11 +9,10 @@ namespace DemocracyDispenser
     {
         public float DefaultValue { get ; set ; }
         public float InUsageValue { get ; set ; }
-        public float currentHealth {get; set;}
+        public float currentHealth;
         public float regenerationHealth {get; set;}
         public float regenerationSpeed {get; set;}
-
-
+        public Slider HealthBar;
         public void SetInUsageValue(float amount)
         {
             InUsageValue += amount;
@@ -32,6 +32,10 @@ namespace DemocracyDispenser
             regenerationSpeed = speed;
             InvokeRepeating("HPRegeneration", 0f, regenerationSpeed);
         }
+        public void SetCurrentHealth(float amount)
+        {
+            currentHealth+= amount;
+        }
 
         void Start()
         {
@@ -43,7 +47,7 @@ namespace DemocracyDispenser
 
         void Update()
         {
-        
+            HealthBar.value = currentHealth/InUsageValue;
         }
         void OnTriggerEnter2D(Collider2D other)
         {
@@ -53,7 +57,11 @@ namespace DemocracyDispenser
             }
             if (other.CompareTag("Enemy"))
             {
-                //player hit from direct enemy 
+                if (other.GetComponent<EnemyControl>() != null)
+                {
+                    SetCurrentHealth(-other.GetComponent<EnemyControl>().enemyStat.Damage);
+                    Debug.Log("Player take damage from "+ other.name);
+                }
             }
         }
     }

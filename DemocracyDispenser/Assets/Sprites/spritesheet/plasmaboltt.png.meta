@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: c5123b6696a3aa046ac4b17385354404
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plasmaboltt_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 8600
+        width: 1613
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438922c0c0747cf4dac44ad00a7d5752
+      internalID: 1902305217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_1
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 8606
+        width: 1625
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7613e17877e587948a1545e96371168d
+      internalID: -213745070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_2
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 8611
+        width: 1651
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01783d707c8e7ff41b33ece6da89c0c6
+      internalID: 1465335295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_3
+      rect:
+        serializedVersion: 2
+        x: 6232
+        y: 8623
+        width: 1648
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8ddfdb480430947a786a5ff3f21d39
+      internalID: -91596053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_4
+      rect:
+        serializedVersion: 2
+        x: 8220
+        y: 8635
+        width: 1642
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdb7db36c7ca8a46a3f1cb3d88e3fd7
+      internalID: -2095436371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_5
+      rect:
+        serializedVersion: 2
+        x: 10179
+        y: 8576
+        width: 1619
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae434f709913418469952817cd157965
+      internalID: 961746505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 6635
+        width: 1647
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4776533e58144bf4a9eafd21c4819444
+      internalID: -1623788985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_7
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 6641
+        width: 1665
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1afa9fb79063842980393b36ec5c7a
+      internalID: 1126148797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_8
+      rect:
+        serializedVersion: 2
+        x: 4191
+        y: 6647
+        width: 1648
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcfecebb4fb3bb4d9723b3768668645
+      internalID: -2022576283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_9
+      rect:
+        serializedVersion: 2
+        x: 6191
+        y: 6660
+        width: 1660
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427d488656d677c43b9024a568c426f1
+      internalID: -869996560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_10
+      rect:
+        serializedVersion: 2
+        x: 8167
+        y: 6630
+        width: 1643
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d727963861343254cac450486e0bacfb
+      internalID: -755384187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_11
+      rect:
+        serializedVersion: 2
+        x: 10221
+        y: 6588
+        width: 1612
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd9782e32ebe3848a0dec98bb5ae14c
+      internalID: 366418017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4606
+        width: 1612
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cfd9a1d92b9b64ea213aa08a383f63
+      internalID: -726599971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_13
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 4524
+        width: 1660
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173035cf761731347957cb2c5f9a53ef
+      internalID: -2111047884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_14
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 4367
+        width: 1672
+        height: 1260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf39ceecb5a9d974da3848a554f80f4e
+      internalID: -457330037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_15
+      rect:
+        serializedVersion: 2
+        x: 6003
+        y: 4501
+        width: 1672
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d0ce0e4612234cbfcf6705a851c01
+      internalID: -1380195110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_16
+      rect:
+        serializedVersion: 2
+        x: 8062
+        y: 4565
+        width: 1765
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a743ed355bcac6d4e9a5b9d89f42c3ca
+      internalID: -1019824776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_17
+      rect:
+        serializedVersion: 2
+        x: 10238
+        y: 4590
+        width: 1613
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3174a073925b7094eabaca987dd16cc8
+      internalID: -362454113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2548
+        width: 1771
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddd2ba43058eda4c9d7e615082f69bd
+      internalID: -123937035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_19
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2566
+        width: 1764
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058d7572ef217bb4e91fb03f5ddfb754
+      internalID: 1575589181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_20
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 2548
+        width: 1765
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb73f12904cf0fc41bc4a464fd0a07b9
+      internalID: 1046374769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_21
+      rect:
+        serializedVersion: 2
+        x: 6062
+        y: 2566
+        width: 1765
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70166ceea52970a4d9cd311626aa6496
+      internalID: 637450802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_22
+      rect:
+        serializedVersion: 2
+        x: 8027
+        y: 2548
+        width: 1771
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d293304008a20524683b47deee7034b5
+      internalID: -1461491591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_23
+      rect:
+        serializedVersion: 2
+        x: 10279
+        y: 2595
+        width: 1613
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eca21d3d2714f4bb1ec33e0e0be54b
+      internalID: 1988447148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 560
+        width: 1765
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c27d4f05c6adb4d885fa39d8d4fa13
+      internalID: 2069750664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_25
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 578
+        width: 1668
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0232d82ff99e244c9922910e2c1c19d
+      internalID: 1207900562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_26
+      rect:
+        serializedVersion: 2
+        x: 4138
+        y: 572
+        width: 1613
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a17760a3963484b89bb1096474c332
+      internalID: 110611650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_27
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 578
+        width: 1612
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40dfddaf7deebf4ba082aaf997c27ce
+      internalID: 738687891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_28
+      rect:
+        serializedVersion: 2
+        x: 8173
+        y: 578
+        width: 1613
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f11695b8ba322489c363f2c788bb13
+      internalID: -1180054524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasmaboltt_29
+      rect:
+        serializedVersion: 2
+        x: 10279
+        y: 595
+        width: 1613
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df362d7e93c22604f944f72129780663
+      internalID: -1458712479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      plasmaboltt_9: -869996560
+      plasmaboltt_21: 637450802
+      plasmaboltt_18: -123937035
+      plasmaboltt_2: 1465335295
+      plasmaboltt_16: -1019824776
+      plasmaboltt_14: -457330037
+      plasmaboltt_22: -1461491591
+      plasmaboltt_8: -2022576283
+      plasmaboltt_0: 1902305217
+      plasmaboltt_23: 1988447148
+      plasmaboltt_5: 961746505
+      plasmaboltt_3: -91596053
+      plasmaboltt_26: 110611650
+      plasmaboltt_12: -726599971
+      plasmaboltt_25: 1207900562
+      plasmaboltt_29: -1458712479
+      plasmaboltt_6: -1623788985
+      plasmaboltt_19: 1575589181
+      plasmaboltt_1: -213745070
+      plasmaboltt_4: -2095436371
+      plasmaboltt_17: -362454113
+      plasmaboltt_10: -755384187
+      plasmaboltt_28: -1180054524
+      plasmaboltt_15: -1380195110
+      plasmaboltt_7: 1126148797
+      plasmaboltt_13: -2111047884
+      plasmaboltt_27: 738687891
+      plasmaboltt_20: 1046374769
+      plasmaboltt_11: 366418017
+      plasmaboltt_24: 2069750664
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

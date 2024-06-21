@@ -15,9 +15,9 @@ MonoBehaviour:
   enemyLevel: 0
   enemyType: 0
   Speed: 0
-  Damage: 0
-  Health: 0
+  Damage: 3
   Armor: 0
+  Health: 20
   Walk: {fileID: 0}
   Attack: {fileID: 0}
   Dead: {fileID: 0}

@@ -12,7 +12,8 @@ namespace DemocracyDispenser
         public EnemyLevel enemyLevel;
         public EnemyType enemyType;
         [Header("Common Trait")]
-        public float Speed, Damage, Health, Armor;
+        public float Speed, Damage, Armor;
+        public int Health;
         public Animation Walk, Attack, Dead;
         [Header("Ranged, RangedWalker")]
         public float FireRange, FireRate;

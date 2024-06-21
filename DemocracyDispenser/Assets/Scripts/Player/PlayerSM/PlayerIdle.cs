@@ -10,6 +10,7 @@ namespace DemocracyDispenser
         public override void EnterState(PlayerController player)
         {
             handler = InputHandler.Instance;
+            player.anim.Play("idle");
         }
 
         public override void ExitState(PlayerController player)

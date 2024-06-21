@@ -8,12 +8,15 @@ public class PlayerController : MonoSingleton<PlayerController>
 {
     private IPlayerState currentState;
     public Rigidbody2D rb;
-
+    public Animator anim;
+    public SpriteRenderer sr;
     public PlayerStatsSO Stats;
     public Transform XBoundary, YBoundary;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
     void Start()
     {
