@@ -8,7 +8,7 @@ namespace DemocracyDispenser
     {
         private EnemyControl enemy;
         private EnemySO stats;
-        private int _health, _maxHealth;
+        private float _health, _maxHealth;
 
         public GameObject DropItem;
         void Start()
@@ -18,7 +18,7 @@ namespace DemocracyDispenser
             _maxHealth = stats.Health;
             _health = _maxHealth;
         }
-        public void SetHealth(int amount)
+        public void SetHealth(float amount)
         {
             _health += amount;
         }

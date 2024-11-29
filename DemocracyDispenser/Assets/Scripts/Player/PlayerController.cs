@@ -10,7 +10,6 @@ public class PlayerController : MonoSingleton<PlayerController>
     public Rigidbody2D rb;
     public Animator anim;
     public SpriteRenderer sr;
-    public PlayerStatsSO Stats;
     public Transform XBoundary, YBoundary;
     void Awake()
     {

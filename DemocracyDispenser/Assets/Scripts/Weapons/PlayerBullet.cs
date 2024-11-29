@@ -8,13 +8,12 @@ namespace DemocracyDispenser
     public class PlayerBullet : MonoBehaviour
     {
         public BulletType thisBulletType;
-        public int Damage;
+        public float Damage;
         private Rigidbody2D rb;
         public float FireForce;
         public int PiercingCount;
         public GameObject DeadBulletTarget;
-        private GameObject[] enemies;
-        private int chosenEnemy;
+        private List<GameObject> enemies = new List<GameObject>();
         private bool isPiercing = false;
         void Awake()
         {
@@ -23,6 +22,7 @@ namespace DemocracyDispenser
         void Start()
         {
             Destroy(this.gameObject, 10f);
+
         }
         void OnTriggerEnter2D(Collider2D other)
         {
@@ -35,16 +35,33 @@ namespace DemocracyDispenser
                         Destroy(gameObject);
                     break;
                     case BulletType.ElectricBullet:
-                        other.gameObject.GetComponent<EnemyHealth>().SetHealth(-Damage);
-                        chosenEnemy = Random.Range(0, enemies.Length);
                         isPiercing = true;
-                        if (enemies[chosenEnemy] != null)
+                        enemies.Clear();
+                        GameObject[] _enemies = GameObject.FindGameObjectsWithTag("Enemy");
+                        if (_enemies.Length == 1)
                         {
-                            PiercingCount-=1;
-                            rb.velocity = Vector2.zero;
-                            if (PiercingCount == 0){Destroy(this.gameObject);}
+                            other.gameObject.GetComponent<EnemyHealth>().SetHealth(-Damage);
+                            Destroy(this.gameObject);
                         }
-                        else{Destroy(gameObject);}
+                        else
+                        {
+                            for (int i=0; i<_enemies.Length;i++)
+                            {
+                                enemies.Add(_enemies[i]);
+                            }
+                            enemies.Remove(other.gameObject);
+                            int chosenEnemy = Random.Range(0,enemies.Count);
+                            if (enemies[chosenEnemy] != null)
+                            {
+                                PiercingCount-=1;
+                                rb.velocity = Vector2.zero;
+                                if (PiercingCount == 0){Destroy(this.gameObject);}
+                                DeadBulletTarget = enemies[chosenEnemy];
+                            }
+                            else{Destroy(gameObject);}
+                            other.gameObject.GetComponent<EnemyHealth>().SetHealth(-Damage);
+                            
+                        }
                     break;
 
                     case BulletType.DeadBullet:
@@ -65,7 +82,6 @@ namespace DemocracyDispenser
         }
         void Update()
         {
-            enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
             if (isPiercing)
             {

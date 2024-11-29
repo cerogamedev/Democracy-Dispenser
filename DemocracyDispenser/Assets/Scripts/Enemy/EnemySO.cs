@@ -13,7 +13,7 @@ namespace DemocracyDispenser
         public EnemyType enemyType;
         [Header("Common Trait")]
         public float Speed, Damage, Armor;
-        public int Health;
+        public float Health;
         public Animation Walk, Attack, Dead;
         [Header("Ranged, RangedWalker")]
         public float FireRange, FireRate;

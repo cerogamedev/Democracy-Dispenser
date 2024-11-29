@@ -8,16 +8,7 @@ namespace DemocracyDispenser
 
     public class PlayerStatsSO : ScriptableObject
     {
-        public float PlayerSpeed;
-        public float MaxHealth;
-        public float HealthRegeneration;
-        public float EnergyLevel;
-        public float Damage;
-        public float CriticalHit;
-        public float Armor;
-        public float Energy;
-        public float ProcessorPower;
-        public float ElectricCapacity;
-        public float AntiAirDefend;
+        public float HP, Damage, AttackSpeed, GadgetCoolDown, MovementSpeed, Durability, XPGain, Resource, 
+        Gathering, Map, CritChance, CritDamage, Dodge, Luck, LifeSteal;
     }
 }

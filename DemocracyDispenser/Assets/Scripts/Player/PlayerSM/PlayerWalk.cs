@@ -9,10 +9,10 @@ namespace DemocracyDispenser
     public class PlayerWalk : IPlayerState
     {
         public Vector2 Direction;
-        public PlayerMovement movementScript;
+        public PlayerStats movementScript;
         public override void EnterState(PlayerController player)
         {
-            movementScript = player.GetComponent<PlayerMovement>();
+            movementScript = player.GetComponent<PlayerStats>();
             player.anim.Play("walk");
 
         }
@@ -24,7 +24,7 @@ namespace DemocracyDispenser
         public override void UpdateState(PlayerController player)
         {
             Direction = InputHandler.Instance.GetMovementVector();
-            player.rb.AddForce(Direction * movementScript.InUsageValue * Time.deltaTime, ForceMode2D.Impulse);
+            player.rb.AddForce(Direction * movementScript.MovementSpeed * Time.deltaTime, ForceMode2D.Impulse);
 
             Vector2 viewPos;
             viewPos.x = Math.Clamp(player.transform.position.x, player.XBoundary.position.x*-1, player.XBoundary.position.x);

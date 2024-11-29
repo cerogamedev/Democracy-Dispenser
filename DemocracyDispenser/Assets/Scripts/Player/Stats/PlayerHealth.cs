@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,7 @@ namespace DemocracyDispenser
         public float regenerationHealth {get; set;}
         public float regenerationSpeed {get; set;}
         public Slider HealthBar;
+        private PlayerStats stats;
         public void SetInUsageValue(float amount)
         {
             InUsageValue += amount;
@@ -22,16 +24,7 @@ namespace DemocracyDispenser
         {
             InUsageValue = DefaultValue + (percentAmount/100)*DefaultValue;
         }
-        public void HPRegeneration()
-        {
-            if (currentHealth != InUsageValue){currentHealth += regenerationHealth;}
-        }
-        public void SetRegenerationHealth(float speed, float amount)
-        {
-            regenerationHealth = amount;
-            regenerationSpeed = speed;
-            InvokeRepeating("HPRegeneration", 0f, regenerationSpeed);
-        }
+
         public void SetCurrentHealth(float amount)
         {
             currentHealth+= amount;
@@ -39,14 +32,15 @@ namespace DemocracyDispenser
 
         void Start()
         {
-            DefaultValue = PlayerController.Instance.Stats.MaxHealth;
+            DefaultValue = PlayerStats.Instance.HP;
             InUsageValue = DefaultValue;
             currentHealth = InUsageValue;
-            InvokeRepeating("HPRegeneration", 0f, regenerationSpeed);
+            stats = PlayerStats.Instance;
         }
 
         void Update()
         {
+            InUsageValue = stats.HP;
             HealthBar.value = currentHealth/InUsageValue;
         }
         void OnTriggerEnter2D(Collider2D other)
@@ -59,7 +53,7 @@ namespace DemocracyDispenser
             {
                 if (other.GetComponent<EnemyControl>() != null)
                 {
-                    SetCurrentHealth(-other.GetComponent<EnemyControl>().enemyStat.Damage);
+                    SetCurrentHealth(-other.GetComponent<EnemyControl>().enemyStat.Damage + stats.Durability);
                     Debug.Log("Player take damage from "+ other.name);
                 }
             }
